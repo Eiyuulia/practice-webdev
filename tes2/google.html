@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        .header{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            height: 40px;
+        }
+        .header *{
+            margin: 10px;
+            max-height: 30px;
+            max-width: 30px;
+        }
+        #jarak{
+            margin-left: 40px;
+        }
+        .content{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 120px;
+        }
+        .content *{
+            margin: 8px;
+        }
+        .content img{
+            width: 350px;
+            margin-top: 100px;
+        }
+        input{
+            width: 550px;
+            height: 30px;
+            border-radius: 25px;
+        }
+        .subcontent1{
+            display: flex;
+            flex-direction: row;
+            color: dimgray;
+        }
+        .subcontent1 *{
+            background-color: whitesmoke;
+            padding: 10px;
+        }
+        .subcontent2{
+            display: flex;
+            flex-direction: row;
+        }
+        .subcontent2 .ditawarkan{
+            color: blue;
+        }
+        .footer{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            background-color: whitesmoke;
+            height: 120px;
+            padding: 0;
+            margin-left: 0;
+            margin-right: 0;
+            color:dimgray;
+        }
+        .footer *{
+            margin: 5px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        #id{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-top: 10px;
+            margin-left: 15px;
+        }
+        #separator{
+            background-color: dimgray;
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 0;
+            height:1%;
+        }
+        .tentang{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            height: auto;
+        }
+        .subtentang{
+            display: flex;
+            flex-direction: row;
+        }
+
+    </style>
+    <title>Google</title>
+</head>
+<body>
+
+    <div class="header">
+        <a href="https://mail.google.com">Gmail</a>
+        <a href="https://www.google.co.id/imghp">Gambar</a>
+        <img id="jarak" src="fi-xwluxx-playstore-wide.png" alt="Titik 9">
+        <img src="270014.png" alt="Profile pic">
+    </div>
+
+    <div class="content">
+        <img src="google-logo-1.png" alt="logo">
+        <form>
+            <input type="text" id="searchbox" name="searchbox" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Halooo Hoi?">
+        </form>
+        <div class="subcontent1">
+            <div>Penelusuran Google</div>
+            <div>Saya Lagi Beruntung</div>
+        </div>
+        <div class="subcontent2">
+            <a>Google menawarkan: <a class="ditawarkan">English</a><a class="ditawarkan">Basa Bali</a></a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div id="id"><a>Indonesia</a></div>
+        <div id="separator"></div>
+        <div class="tentang">
+            <div class="subtentang">
+                <div><a>Tentang</a></div>
+                <div><a>Periklanan</a></div>
+                <div><a>Bisnis</a></div>
+                <div><a>Cara kerja Penelusuran</a></div>
+            </div>
+            <div class="subtentang">
+                <div><a>Privasi</a></div>
+                <div><a>Persyaratan</a></div>
+                <div><a>Setelan</a></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
