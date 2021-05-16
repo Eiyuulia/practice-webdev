@@ -9,14 +9,16 @@
         body{
             margin: 0;
             padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
         }
         header{
             display: flex;
             justify-content: center;
             align-items: center;
             background-color: midnightblue;
-            height: 70px;
+            height: 60px;
             font-size: large;
+            background-color: #18354C;
         }
         header *{
             margin: 0 25px;
@@ -38,6 +40,119 @@
             color: green;
             margin: 0;
         }
+        article{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin: 20px 25%;
+        }
+        article .subar1{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-bottom: 30px;
+        }
+        article .subar1 *{
+            margin: 20px auto;
+        }
+        article .subar1 div{
+            border: 1px solid;
+        }
+        article .subar1 img{
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 10px; 
+        }
+        article .subar1 .div1{
+            background-color: #DFEBF5;
+            color: #32516B;
+        }
+        article .subar1 .div1 *{
+            margin: 15px 10px;
+        }
+        article .subar1 .div1 button{
+            background-color: orangered;
+            color: white;
+            height: 40px;
+            width: 200px;
+            margin-left: 35%;
+        }
+        article .subar1 .div2{
+            background-color: whitesmoke;
+            padding: 0;
+        }
+        article .subar1 .div2 p{
+            margin: 30px;
+        }
+        article .subar1 .div2 h1{
+            text-align: center;
+            border: 1px solid;
+            border-bottom: 3px solid;
+            margin: 0;
+        }
+        article .subar1 .div2 input{
+            display: block;
+            height: 30px;
+            width: 600px;
+            margin-bottom: 5px;
+            font-size: large;
+        }
+        article .subar1 .div2 button{
+            display: block;
+            height: 33px;
+            width: 610px;
+            margin-top: 5px;
+            background-color: orangered;
+            color: white;
+            font-size: large;
+        }
+        article .subar2{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin: 30px auto;
+        }
+        article .subar2 *{
+            margin: 20px auto;
+        }
+        article .subar2 a{
+            font-size: large;
+        }
+        article .subar3{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin: 30px auto;
+        }
+        article .subar3 *{
+            margin: 20px auto;
+        }
+        article .subar3 .quote{
+            border-left: 5px gainsboro solid;
+            margin-left: 10px;
+            padding-left: 10px;
+            color: dimgray;
+        }
+        article .subar4{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin: 30px auto;
+        }
+        article .subar4 *{
+            margin: 20px auto;
+        }
+        article .subar4 h1{
+            text-align: center;
+        }
+        article .subar4 div{
+            background-color: #FFF3CD;
+            color: #85641D;
+            padding: 20px 5%;
+        }
+        article .subar4 div strong{
+            color: #533F03;
+        }
     </style>
 </head>
 <body>
@@ -55,17 +170,17 @@
 
         <div class="subar1">
             <h1>Learn Python Programming By Example</h1>
-            <div>
+            <div class="div1">
                 <h1>How Can We Help You</h1>
                 <p>We’re updating this page to make it more useful, if you have a moment to share your thoughts on how we can improve this page, please click here:
                 </p>
                 <button>Share Your Feedback</button>
             </div>
             <img src="pic-01.png" alt="Realpython.img">
-            <div>
+            <p>
                 At Real Python you can learn all things Python from the ground up. Everything from the absolute basics of Python, to web development and web scraping, to data visualization, and beyond:
-            </div>
-            <div>
+            </p>
+            <div class="div2">
                 <h1>Python Tricks</h1>
                 <p>Get a short & sweet Python Trick delivered to your inbox every couple of days. No spam ever. Unsubscribe any time. Curated by the Real Python team.</p>
                 <form action="">
@@ -80,7 +195,7 @@
             <img src="pic-02.png" alt="Pic2.png">
             <img src="pic-03.png" alt="Pic3.png">
             <img src="pic-04.png" alt="Pic4.img">
-            <a href="https://google.com">Or, Browse latest tutorial</a>
+            <a href="https://google.com">Or, Browse latest tutorials >></a>
         </div>
 
         <div class="subar3">
