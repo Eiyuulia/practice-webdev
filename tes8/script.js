@@ -5,3 +5,6 @@ judul.innerHTML = 'Okky Prasetia';
 // secA.innerHTML = 'Hai semua';
 
 judul.style.color = 'salmon';
+
+const link = document.querySelector('#container #a a');
+link.setAttribute('href','https://github.com/Eiyuulia');
