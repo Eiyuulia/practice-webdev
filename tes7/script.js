@@ -34,3 +34,7 @@ li2.style.backgroundColor = "red";
 // document.querySelectorAll() -> nodelist
 
 const p = document.querySelectorAll('p');
+
+for (let i = 0; i < p.length; i++){
+    p[i].style.backgroundColor = 'aqua';
+}
