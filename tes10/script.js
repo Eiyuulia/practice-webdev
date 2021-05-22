@@ -12,7 +12,8 @@ const p4 = document.querySelector('#b p');
 p4.addEventListener('click', function(){
     const liBaru = document.createElement('li');
     const nodeLiBaru = document.createTextNode('list baru');
+    const ul = document.querySelector('ul');
     liBaru.appendChild(nodeLiBaru);
-    p4.appendChild(liBaru);
+    ul.appendChild(liBaru);
 });
 
