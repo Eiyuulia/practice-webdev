@@ -10,5 +10,9 @@ p2.onclick = ubahWarna;
 const p4 = document.querySelector('#b p');
 
 p4.addEventListener('click', function(){
-    alert('kamu mencet paragraph 4')
+    const liBaru = document.createElement('li');
+    const nodeLiBaru = document.createTextNode('list baru');
+    liBaru.appendChild(nodeLiBaru);
+    p4.appendChild(liBaru);
 });
+
