@@ -27,3 +27,12 @@ const ul = document.querySelector('section#b ul');
 const li2 = document.querySelector('section#b ul li:nth-child(2)');
 
 ul.insertBefore(liBaru, li2);
+
+
+
+// Menghapus dan menreplace child
+
+// remove link ig, yg diperlukan: parent dan element yg diremove
+
+const link = document.querySelector('a');
+sectionA.removeChild(link);
