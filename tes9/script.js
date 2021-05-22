@@ -1,5 +1,6 @@
 // DOM manipulation
 
+// CARA 1
 // membuat element/tag baru
 const pBaru = document.createElement('p');
 
@@ -16,8 +17,13 @@ sectionA.appendChild(pBaru);
 
 
 
-
+// CARA 2   
 
 const liBaru = document.createElement('li');
 const textLiBaru = document.createTextNode('item baru');
 liBaru.appendChild(textLiBaru);
+
+const ul = document.querySelector('section#b ul');
+const li2 = document.querySelector('section#b ul li:nth-child(2)');
+
+ul.insertBefore(liBaru, li2);
