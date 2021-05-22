@@ -36,3 +36,14 @@ ul.insertBefore(liBaru, li2);
 
 const link = document.querySelector('a');
 sectionA.removeChild(link);
+
+
+// membuat paragraph baru
+
+const sectionB = document.getElementById('b');
+const p4 = sectionB.getElementsByTagName('p')[0];
+
+const judulSecB = document.createElement('h2');
+const textJudul = document.createTextNode('Gw adalah judul');
+judulSecB.appendChild(textJudul);
+sectionB.replaceChild(judulSecB,p4);
