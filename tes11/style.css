@@ -47,6 +47,7 @@ nav{
     height: 2px;
     background-color: rgb(241, 241, 241);
     margin: 3px;
+    transition: transform 0.5s ease;
 }
 
 @media screen and (max-width: 1024px) {
@@ -67,6 +68,7 @@ nav{
         background-color: teal;
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
         align-items: center;
         width: 50%;
         transform: translateX(100%);
@@ -98,7 +100,7 @@ nav{
 }
 
 .burClick .line1 {
-    transform: rotate(-45deg) translate(-5px, 6px);
+    transform: rotate(-45deg) translate(-5px, 3px);
 }
 
 .burClick .line2 {
@@ -106,5 +108,5 @@ nav{
 }
 
 .burClick .line3 {
-    transform: rotate(45deg) translate(-5px, -6px);
+    transform: rotate(45deg) translate(-5px, -3px);
 }
