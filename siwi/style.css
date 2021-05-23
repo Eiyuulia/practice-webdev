@@ -2,21 +2,26 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+    letter-spacing: 2px;
 }
+
+
+/* style untuk nav */
 
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 8vh;
+    min-height: 70px;
     font-family: 'Cairo', sans-serif;
-    background-color: teal;
+    background-color: #FFE0D8;
 }
 
 .logo {
     text-transform: uppercase;
-    color: rgb(241, 241, 241);
-    letter-spacing: 5px;
+    color: black;
+    letter-spacing: 7px;
     font-size: 20px;
 }
 
@@ -31,11 +36,19 @@ nav {
 }
 
 .nav-links a {
-    color: rgb(241, 241, 241);
+    color: black;
     letter-spacing: 2px;
     text-decoration: none;
     font-weight: bold;
     font-size: 14px;
+    transition: all 0.5s ease, border-color 0s;
+}
+
+.nav-links a:hover {
+    border: 1px solid rgb(104, 104, 104);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
 }
 
 .burger {
@@ -45,7 +58,7 @@ nav {
 .burger div {
     width: 20px;
     height: 2px;
-    background-color: rgb(241, 241, 241);
+    background-color: black;
     margin: 3px;
     transition: transform 0.5s ease;
 }
@@ -66,7 +79,7 @@ nav {
         right: 0px;
         height: 92vh;
         top: 8vh;
-        background-color: teal;
+        background-color: #FFE0D8;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -88,6 +101,8 @@ nav {
 
 .nav-active {
     transform: translateX(0%);
+    border-left: rgb(104, 104, 104) 1px dashed;
+    border-radius: 15px;
 }
 
 @keyframes navLinkFade {
@@ -112,4 +127,48 @@ nav {
 
 .burClick .line3 {
     transform: rotate(45deg) translate(-5px, -3px);
+}
+
+/* separator */
+.separator {
+    height: 1px;
+    background-color: rgb(104, 104, 104);
+}
+
+/* style untuk section pertama */
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 784px;
+    background-color: #FFE0D8;
+}
+
+section * {
+    margin: 20px 20%;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    section * {
+        margin: 20px 10%;
+    }
+}
+
+section img {
+    margin: 40px 20%;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+section h1 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+section .byme {
+    font-weight: bold;
+    letter-spacing: 1px;
 }
