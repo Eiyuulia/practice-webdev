@@ -80,4 +80,10 @@ footer div {
     text-align: center;
     font-size: 14px;
     margin: 20px;
+    font-family: 'BioRhyme', serif;
+}
+
+footer #copyright {
+    font-size: 17px;
+    font-family: 'BioRhyme', serif;
 }
