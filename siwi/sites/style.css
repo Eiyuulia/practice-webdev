@@ -70,8 +70,13 @@ article h1 {
     margin-left: 50px;
 }
 
-.socmed {
-    min-height: 100px;
+.socmed a {
+    margin: auto 10px;
+}
+
+.socmed a img {
+    max-width: 30px;
+    max-height: 30px;
 }
 
 /* footer */
