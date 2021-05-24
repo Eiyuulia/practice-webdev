@@ -17,11 +17,27 @@ nav {
     background-color: #FFE0D8;
 }
 
+nav a {
+    text-decoration: none;
+}
+
+nav .backk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 20px;
+    padding-bottom: 5px;
+    transition: all 0.2s ease;
+}
+
+nav .backk:hover {
+    padding-bottom: 0px;
+    border-bottom: 5px solid black;
+}
 
 nav img {
     max-width: 40px;
     max-height: 40px;
-    margin-left: 30px;
     margin-right: 10px;
 }
 
@@ -29,6 +45,7 @@ nav .back {
     font-weight: bolder;
     font-size: x-large;
     letter-spacing: 3px;
+    color: black;
 }
 
 /* separator */
@@ -42,7 +59,7 @@ article {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    min-height: 784px;
+    height: 784px;
     align-items: center;
 }
 
@@ -70,6 +87,10 @@ article h1 {
     margin-left: 50px;
 }
 
+.socmed {
+    height: 50px;
+}
+
 .socmed a {
     margin: auto 10px;
 }
@@ -77,6 +98,11 @@ article h1 {
 .socmed a img {
     max-width: 30px;
     max-height: 30px;
+    transition: all 0.2s ease;
+}
+
+.socmed a img:hover {
+    transform: translate(0, -10px);
 }
 
 /* footer */
