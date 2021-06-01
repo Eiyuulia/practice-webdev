@@ -219,6 +219,7 @@ section .byme {
 
 .sec3 {
     padding: 20px 50px;
+    margin-bottom: 300px;
 }
 
 .sec3 .bigcard {
@@ -240,4 +241,29 @@ section .byme {
 
 .sec3 .bigcard h2 {
     margin-bottom: 100px;
+}
+
+.sec3 .bigcard .p {
+    text-align: justify;
+    text-indent: 60px;
+}
+
+/* separator */
+.separator {
+    height: 1px;
+    background-color: rgb(104, 104, 104);
+}
+
+/* style untuk footer */
+
+footer div {
+    text-align: center;
+    font-size: 14px;
+    margin: 20px;
+    font-family: 'BioRhyme', serif;
+}
+
+footer #copyright {
+    font-size: 17px;
+    font-family: 'BioRhyme', serif;
 }
