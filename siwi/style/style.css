@@ -178,6 +178,7 @@ section .byme {
 .sec2 {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .sec2>div {
@@ -197,16 +198,46 @@ section .byme {
 }
 
 .sec2 .quote {
-    max-width: 706px;
     display: flex;
     align-items: center;
 }
 
-.sec2 .left {
+.sec2 .quote div {
+    max-width: 706px;
+}
+
+.sec2 .left div {
     margin-left: 94px;
 }
 
 .sec2 .right {
     flex-direction: row-reverse;
+    margin-left: 94px;
+}
 
+/* Style untuk Section 3 */
+
+.sec3 {
+    padding: 20px 50px;
+}
+
+.sec3 .bigcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 80px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px -2px rgb(153, 153, 153);
+}
+
+.sec3 .bigcard img {
+    max-width: 200px;
+    max-height: 600px;
+    margin: 60px 0 5px 0;
+    border-radius: 10px;
+}
+
+.sec3 .bigcard h2 {
+    margin-bottom: 100px;
 }
