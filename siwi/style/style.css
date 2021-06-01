@@ -257,7 +257,7 @@ section .note {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 40px 80px;
+    padding: 40px 80px 60px 80px;
     border-radius: 10px;
     box-shadow: 0px 0px 12px -2px rgb(153, 153, 153);
 }
@@ -270,7 +270,8 @@ section .note {
 }
 
 .sec3 .bigcard h2 {
-    margin-bottom: 100px;
+    font-size: 27px;
+    margin-bottom: 150px;
 }
 
 .sec3 .bigcard p {
